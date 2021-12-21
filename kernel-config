@@ -1540,7 +1540,7 @@ CONFIG_PREVENT_FIRMWARE_BUILD=y
 # Firmware loader
 #
 CONFIG_FW_LOADER=y
-CONFIG_EXTRA_FIRMWARE="radeon/verde_ce.bin radeon/verde_mc.bin radeon/verde_me.bin radeon/verde_pfp.bin radeon/verde_rlc.bin radeon/verde_smc.bin radeon/TAHITI_uvd.bin radeon/TAHITI_vce.bin"
+CONFIG_EXTRA_FIRMWARE="amdgpu/polaris10_ce.bin amdgpu/polaris10_ce_2.bin amdgpu/polaris10_k_smc.bin amdgpu/polaris10_k2_smc.bin amdgpu/polaris10_k_mc.bin amdgpu/polaris10_mc.bin amdgpu/polaris10_me.bin amdgpu/polaris10_me_2.bin amdgpu/polaris10_mec2.bin amdgpu/polaris10_mec2_2.bin amdgpu/polaris10_mec.bin amdgpu/polaris10_mec_2.bin amdgpu/polaris10_pfp.bin amdgpu/polaris10_pfp_2.bin amdgpu/polaris10_rlc.bin amdgpu/polaris10_sdma1.bin amdgpu/polaris10_sdma.bin amdgpu/polaris10_smc.bin amdgpu/polaris10_smc_sk.bin amdgpu/polaris10_uvd.bin amdgpu/polaris10_vce.bin"
 CONFIG_EXTRA_FIRMWARE_DIR="/lib/firmware"
 # CONFIG_FW_LOADER_USER_HELPER is not set
 # CONFIG_FW_LOADER_COMPRESS is not set
